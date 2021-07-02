@@ -33,5 +33,3 @@ export function meNew(F, ...args) {
 
   return typeof res == "object" ? res : obj
 }
-
-console.log(this === global)
